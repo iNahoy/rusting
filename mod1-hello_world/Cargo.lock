@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "about_me"
+name = "mod1-hello_world"
 version = "0.1.0"

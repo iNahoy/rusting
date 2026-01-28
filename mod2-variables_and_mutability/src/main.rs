@@ -1,3 +1,3 @@
 fn main() {
-    println!("Hello, world!");
+    let apples: i32 = 50;
 }

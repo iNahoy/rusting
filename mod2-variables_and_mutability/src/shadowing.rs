@@ -3,7 +3,7 @@ pub fn executar() {
        aqui temos exemplo de uma variavel que pode se transformar em outras
        e ainda terá o mesmo resultado (o nome da variável)
     */
-
+    println!("--- AULA: Shadowing ---");
     // 1. Começa como String slice (&str)
     let grams_of_protein: &str = "100.345";
     println!("{grams_of_protein}");

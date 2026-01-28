@@ -1,4 +1,5 @@
 mod imutabilidade;
+mod scopes;
 mod shadowing;
 mod variaveis;
 
@@ -11,4 +12,7 @@ fn main() {
 
     // Executa a aula de shadowing
     shadowing::executar();
+
+    // Executa a aula de scopes
+    scopes::executar();
 }

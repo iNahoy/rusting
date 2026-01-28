@@ -8,4 +8,7 @@ fn main() {
 
     // Executa a aula de imutabilidade
     imutabilidade::executar();
+
+    // Executa a aula de shadowing
+    shadowing::executar();
 }

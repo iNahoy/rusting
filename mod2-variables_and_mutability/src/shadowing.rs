@@ -20,4 +20,6 @@ pub fn executar() {
     // ATENÇÃO: Se você tirar o 'let' daqui, vai dar erro de imutabilidade!
     let grams_of_protein = 103;
     println!("Gramas de proteina: {} ", grams_of_protein);
+
+    println!();
 }

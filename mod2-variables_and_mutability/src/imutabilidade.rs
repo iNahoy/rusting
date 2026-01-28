@@ -17,4 +17,6 @@ pub fn executar() {
 
     gym_reps = 32; // Aqui funciona porque usamos 'mut'
     println!("I plan to do {gym_reps} reps in this training (Mutável - Alterado)");
+
+    println!();
 }

@@ -1,4 +1,5 @@
 mod imutabilidade;
+mod shadowing;
 mod variaveis;
 
 fn main() {

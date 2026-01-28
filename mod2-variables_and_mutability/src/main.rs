@@ -1,3 +1,4 @@
+mod constants;
 mod imutabilidade;
 mod scopes;
 mod shadowing;
@@ -15,4 +16,7 @@ fn main() {
 
     // Executa a aula de scopes
     scopes::executar();
+
+    // Executa a aula de constantes
+    constants::executar();
 }

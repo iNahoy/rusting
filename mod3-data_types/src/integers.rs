@@ -1,8 +1,6 @@
 #[allow(unused_variables)]
 
 pub fn executar() {
-    println!("--- AULA: Integers ---");
-
     let eight_bit: i8 = -112; //se fosse -210 estaria fora de range pelo tamanho do interger
     let eight_bit_unsigned: u8 = 255; // -15 estaria fora de range pois o minimio de um unsigned eh 0 e o maximo 255
 

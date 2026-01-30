@@ -1,3 +1,4 @@
+#[allow(unused_variables)]
 pub fn executar() {
     /* usize: em maquina 64 bit = u64 e em maquina 32 = u32 para positivos
      * isize: para postivos e negativos, utiliza-se da mesma parada do sistema que da o valor

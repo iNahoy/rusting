@@ -7,7 +7,7 @@ pub fn executar() {
     let eight_bit_unsigned: u8 = 255; // -15 estaria fora de range pois o minimio de um unsigned eh 0 e o maximo 255
 
     let sixteeen_bit: i16 = -32500;
-    let sixteen_bit_unsigned: u16 = 64000;
+    let sixteen_bit_unsigned: u16 = 64_000; // podemos colocar com _ pra separar tambem
 
     let thirty_two_bit_signed: i32 = -2147483648;
     let thirty_two_bit_unsigned: u32 = 4294967295;

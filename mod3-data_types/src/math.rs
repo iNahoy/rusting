@@ -1,4 +1,5 @@
 pub fn executar() {
+    println!("--- AULA: Math ---");
     let addition = 5 + 4;
     let subtraction = 10 - 6;
     let multiplication = 3 * 4;
@@ -13,4 +14,5 @@ pub fn executar() {
 
     let remainder: i32 = 8 % 2;
     println!("{remainder}");
+    println!()
 }

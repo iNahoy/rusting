@@ -1,4 +1,5 @@
 pub fn executar() {
+    println!("--- AULA: Float ---");
     let pi: f64 = 3.141592653589793;
     println!("{pi}");
     println!("{pi:.4}");
@@ -8,4 +9,5 @@ pub fn executar() {
     println!("{}", pi.floor());
     println!("{}", pi.ceil());
     println!("{}", pi.round());
+    println!()
 }

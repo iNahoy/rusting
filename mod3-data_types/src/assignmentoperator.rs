@@ -1,4 +1,5 @@
 pub fn executar() {
+    println!("--- AULA: Assignment Operators ---");
     let mut year: i32 = 2026;
     year = year + 1;
     println!("the new year is gonna be {}", year);
@@ -11,4 +12,6 @@ pub fn executar() {
 
     year /= 2;
     println!("ano atual dividido por 2 = {year}");
+
+    println!()
 }

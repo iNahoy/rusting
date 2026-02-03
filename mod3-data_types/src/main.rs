@@ -1,6 +1,9 @@
+mod float;
 mod integers;
+mod math;
 mod methods;
 mod strings;
+mod typesaskeyboard;
 mod uisize;
 
 fn main() {
@@ -8,4 +11,7 @@ fn main() {
     uisize::executar();
     strings::executar();
     methods::executar();
+    float::executar();
+    typesaskeyboard::executar();
+    math::executar();
 }

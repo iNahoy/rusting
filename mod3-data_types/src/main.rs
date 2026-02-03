@@ -1,3 +1,4 @@
+mod assignmentoperator;
 mod float;
 mod integers;
 mod math;
@@ -14,4 +15,5 @@ fn main() {
     float::executar();
     typesaskeyboard::executar();
     math::executar();
+    assignmentoperator::executar();
 }

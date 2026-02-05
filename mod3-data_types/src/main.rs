@@ -7,6 +7,7 @@ mod float;
 mod integers;
 mod math;
 mod methods;
+mod pipe;
 mod strings;
 mod typesaskeyboard;
 mod uisize;
@@ -24,4 +25,5 @@ fn main() {
     booleaninversion::executar();
     eqoperators::executar();
     ecomercial::executar();
+    pipe::executar();
 }

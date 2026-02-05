@@ -7,5 +7,18 @@ pub fn executar() {
     println!("{:#?}", number);
     println!("Length {}", apples.len());
 
+    let mut seasons = ["Spring", "Summer", "Fall", "Winter"];
+
+    let first = seasons[0];
+    let second = seasons[1];
+    let third = seasons[2];
+    let fourth = seasons[3];
+
+    println!("1 - {} 2 - {} 3 - {} 4 - {}", first, second, third, fourth);
+    println!("{}", seasons[3]);
+
+    seasons[2] = "Autumn";
+    println!("{:?}", seasons);
+
     println!()
 }

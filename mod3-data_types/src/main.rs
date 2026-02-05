@@ -10,7 +10,9 @@ mod integers;
 mod math;
 mod methods;
 mod pipe;
+mod range;
 mod strings;
+mod tuple;
 mod typesaskeyboard;
 mod uisize;
 
@@ -30,4 +32,6 @@ fn main() {
     pipe::executar();
     character::executar();
     array::executar();
+    tuple::executar();
+    range::executar();
 }

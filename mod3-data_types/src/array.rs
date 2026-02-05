@@ -20,5 +20,8 @@ pub fn executar() {
     seasons[2] = "Autumn";
     println!("{:?}", seasons);
 
+    dbg!(2 + 2);
+    dbg!(seasons);
+
     println!()
 }

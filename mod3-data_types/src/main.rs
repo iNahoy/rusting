@@ -1,6 +1,7 @@
 mod assignmentoperator;
 mod boolean;
 mod booleaninversion;
+mod character;
 mod ecomercial;
 mod eqoperators;
 mod float;
@@ -26,4 +27,5 @@ fn main() {
     eqoperators::executar();
     ecomercial::executar();
     pipe::executar();
+    character::executar();
 }

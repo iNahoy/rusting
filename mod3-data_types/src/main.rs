@@ -6,6 +6,7 @@ mod character;
 mod ecomercial;
 mod eqoperators;
 mod float;
+mod generic;
 mod integers;
 mod math;
 mod methods;
@@ -34,4 +35,5 @@ fn main() {
     array::executar();
     tuple::executar();
     range::executar();
+    generic::executar();
 }

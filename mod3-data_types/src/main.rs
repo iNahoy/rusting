@@ -1,6 +1,7 @@
 mod assignmentoperator;
 mod boolean;
 mod booleaninversion;
+mod eqoperators;
 mod float;
 mod integers;
 mod math;
@@ -20,4 +21,5 @@ fn main() {
     assignmentoperator::executar();
     boolean::executar();
     booleaninversion::executar();
+    eqoperators::executar();
 }

@@ -1,3 +1,4 @@
+mod array;
 mod assignmentoperator;
 mod boolean;
 mod booleaninversion;
@@ -28,4 +29,5 @@ fn main() {
     ecomercial::executar();
     pipe::executar();
     character::executar();
+    array::executar();
 }
